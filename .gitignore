@@ -1,0 +1,110 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Python Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Distribution / packaging
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Node.js / React
+node_modules/
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# React build files
+/frontend/build
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+# Vector database files
+/backend/database/vector_store/
+vector_db/
+vector_store/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project specific
+data/*.csv
+data/*.json
+data/*.xlsx
+!data/sample_data.csv
+logs/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Credentials
+api_keys.py
+credentials.json
+*.pem
+*.key
+
+# Large files
+*.model
+*.h5
+*.pkl
+*.bin
+
+# Temporary files
+tmp/
+temp/

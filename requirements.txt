@@ -1,0 +1,19 @@
+# Core frameworks
+fastapi>=0.95.1
+uvicorn>=0.22.0
+pydantic>=1.10.7
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.3
+scikit-learn>=1.2.2
+
+# Vector search
+pymilvus>=2.5.5
+
+# Utilities
+python-dotenv>=1.0.1
+loguru>=0.7.0
+
+# For development
+pytest>=7.3.1
